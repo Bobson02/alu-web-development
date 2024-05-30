@@ -1,0 +1,61 @@
+body {
+    background-color:bisque;
+    margin: 0px;
+}
+.imbended-post-one {
+    height: auto;
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    max-width: 22vw;
+}
+.emmbed-post{     
+     overflow: hidden;
+}
+nav {
+    background-color: darksalmon;
+    padding: 0px ;
+    height: 5vh;
+}
+.nav-list {
+     list-style-type: none;
+     padding: 0px;
+     margin: 0px;
+     display: flex;
+     float: right;
+}
+.nav-item {
+    padding-right: 10px;
+    
+    
+}
+.nav-item a {
+  text-decoration: none; 
+  color: white; 
+  font-size: 22px; 
+  transition-duration: 500ms;
+}
+.nav-item a:hover {
+    text-decoration: underline; 
+    color: bisque;
+  }  
+footer {
+    background-color: rgb(61, 61, 61);
+    opacity: 0.8;
+    width: auto;
+   min-height: 13vh;
+
+}
+.logo-sect {
+    float: left;
+}
+.logo-sect img {
+    width: 5vh;
+    padding-right: 20px;
+    padding-top: 35px;
+}
+.logo-sect h2 {
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:700;
+}
